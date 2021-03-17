@@ -1,0 +1,25 @@
+{
+    "name": "ant-corp/mqtt-server",
+    "type": "library",
+    "description": "hyperf Mqtt服务端",
+    "keywords": ["hyperf","Mqtt服务端"],
+    "homepage": "https://www.huizhouyiren.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "蚁人科技",
+            "email": "service@huizhouyiren.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AntCorp\\MqttServer\\": "src/"
+        }
+    },
+    "extra": {
+
+    }
+}
